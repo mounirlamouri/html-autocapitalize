@@ -5,4 +5,4 @@ available for HTMLInputElement and HTMLTextAreaElement and based on Safari iOS
 implementation.
 
 See full proposal here:
-https://github.com/mounirlamouri/html-autocapitalize/proposal.md
+https://github.com/mounirlamouri/html-autocapitalize/blob/master/proposal.md
