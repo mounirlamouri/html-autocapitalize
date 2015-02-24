@@ -67,3 +67,9 @@ __Words Capitalization__ state gives a hint to the user agent that first charact
 __Sentences Capitalization__ state gives a hint to the user agent that the beginning of every sentence should be capitalized.
 
 Those states implies hint to the user agent, they should not be enforced to the user. That means that even in No Capitalization state, the user should be able to write full capitalized text if needed.
+
+## Deviation to Apple's proprietary attribute
+
+This proposal has two variations compared to Apple's propriotary attribute:  
+* The attribute is not supported on ```HTMLFormElement```. This part of the proprietary attribute is very rarely used and the rare time it is, it seems mostly used for code like this: ```<form autocapitalize=off><input></form>``` which would work as well if the _autocapitalize_ attribute was on the input element.
+* The proposal is not supporting the ```on``` value. This value is rarely used and is complex to bind to a clear behaviour. Apple binds it to the __Sentences Capitalization__ state but the standard would probably benefit from not having this oddity given that the compatibility cost should be minimal.
