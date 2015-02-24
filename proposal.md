@@ -76,7 +76,7 @@ This proposal has two variations compared to Apple's propriotary attribute:
 
 ## Resources
 
-Apple's proposal can be found here:  
+Apple's proprietary attribute document can be found here:  
 https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/Attributes.html#//apple_ref/doc/uid/TP40008058-autocapitalize
 
 Mozilla support for x-inputmode:  
