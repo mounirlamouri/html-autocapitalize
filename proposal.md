@@ -55,7 +55,7 @@ __Characters Capitalization__ | characters |
 __Words Capitalization__ | words | 
 __Sentences Capitalization__ | sentences | 
 
-For ```HTMLTextAreaElement```, the invalid value default is __Sentences Capitalization__.
+For ```HTMLTextAreaElement```, the invalid value default is __Sentences Capitalization__.  
 For ```HTMLInputElement```, the invalid value default is __Sentences Capitalization__ for Text or Search states and __No Capitalization__ for other states for which the attribute applies.
 
 __No Capitalization__ state gives a hint to the user agent that no capitalization rule should apply to that element by default. For example, under that state, the first letter after the end of a sentence will not be automatically capitalized.
