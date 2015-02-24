@@ -73,3 +73,11 @@ Those states implies hint to the user agent, they should not be enforced to the 
 This proposal has two variations compared to Apple's propriotary attribute:  
 * The attribute is not supported on ```HTMLFormElement```. This part of the proprietary attribute is very rarely used and the rare time it is, it seems mostly used for code like this: ```<form autocapitalize=off><input></form>``` which would work as well if the _autocapitalize_ attribute was on the input element.
 * The proposal is not supporting the ```on``` value. This value is rarely used and is complex to bind to a clear behaviour. Apple binds it to the __Sentences Capitalization__ state but the standard would probably benefit from not having this oddity given that the compatibility cost should be minimal.
+
+## Resources
+
+Apple's proposal can be found here:  
+https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/Attributes.html#//apple_ref/doc/uid/TP40008058-autocapitalize
+
+Mozilla support for x-inputmode:  
+http://mxr.mozilla.org/mozilla-central/source/dom/inputmethod/forms.js#860
