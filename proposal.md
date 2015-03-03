@@ -14,9 +14,7 @@ This proposal will try to be as much as possible compatible with the current imp
 
 _inputmode_ is meant to do solve the same problem, among other things. It is lacking implementations - to the best of my knowledge, only Firefox OS has an implemantion and it is prefixed (_x-inputmode_).
 
-Contrary to _inputmode_, _autocapitalize_ is a very simple attribute that solves a very simple problem: customizing the _autocapitalize_ behaviour of the virtual keyboard. _inputmode_ would allow web developers to do that but it would come with side effects. For example, no capitalization would come with no suggestions (verbatim state).
-
-In addition, _autocapitalize_ comes with hundred of thousands of websites already supporting it. It is a defacto standard that it is worth specifying. This is not [yet another standard](https://xkcd.com/927/).
+Regardless of the value of _inputmode_, _autocapitalize_ comes with hundred of thousands of websites already supporting it. Millions of pages at least. It is a defacto standard that it is worth specifying. This is not [yet another standard](https://xkcd.com/927/).
 
 ## Proposal
 
